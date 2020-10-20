@@ -4,41 +4,41 @@ This repository contains our Pytorch Notebook experiments on the Cifar10 dataset
 
 We briefly describe our models and methods: 
 ### Simple CNN
-SHORT DESCRIPTION 
-Learning rates: 
-Batch size: 
-Epochs: 
-Interpretation of loss plot: 
-Accuracy on test: 66.71 %
+SHORT DESCRIPTION  
+Learning rates:  
+Batch size:  
+Epochs:  
+Interpretation of loss plot:  
+Accuracy on test: 66.71 %  
 ### Simple CNN with Dropout
-SHORT DESCRIPTION 
-Learning rates: 
-Batch size: 
-Epochs: 
-Interpretation of loss plot: 
-Accuracy on test:
+SHORT DESCRIPTION  
+Learning rates:  
+Batch size:  
+Epochs:  
+Interpretation of loss plot:   
+Accuracy on test:  
 ## Additional (pretrained) models:
 ### VGG16 
-SHORT DESCRIPTION 
-Learning rates: 
-Batch size: 
-Epochs: 
-Interpretation of loss plot: 
-Accuracy on test:
+SHORT DESCRIPTION  
+Learning rates:  
+Batch size:  
+Epochs:  
+Interpretation of loss plot:   
+Accuracy on test:  
 ### Resnet
-SHORT DESCRIPTION 
-Learning rates: 
-Batch size: 
-Epochs: 
-Interpretation of loss plot: 
-Accuracy on test:
+SHORT DESCRIPTION  
+Learning rates:  
+Batch size:  
+Epochs:  
+Interpretation of loss plot:   
+Accuracy on test:  
 ### VIG 
-SHORT DESCRIPTION 
-Learning rates: 
-Batch size: 
-Epochs: 
-Interpretation of loss plot: 
-Accuracy on test:
+SHORT DESCRIPTION  
+Learning rates:  
+Batch size:  
+Epochs:  
+Interpretation of loss plot:   
+Accuracy on test:  
 ## Additional Methods: 
 ### Transfer Learning 
 For Resnet and VGG16 we use pretrained models, change the number of outputs for the last linear layer and freeze the previous layers, such that their weight stays unchanged. 
