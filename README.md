@@ -1,6 +1,8 @@
 # [Image Mining Course] Lab 2: Deep Learning 
 
-This repository contains our Pytorch Notebook experiments on the Cifar10 dataset as part of a Course on Image Mining 
+This repository contains our Pytorch Notebook experiments on the Cifar10 dataset as part of a Course on Image Mining   
+
+You find our code in the [final notebook](https://github.com/IemProg/ImageMinningCourse/blob/main/Imad_Final.ipynb).  
 
 We briefly describe our models and methods: 
 ## Simple CNN
