@@ -4,7 +4,7 @@ This repository contains our Pytorch Notebook experiments on the Cifar10 dataset
 
 We briefly describe our models and methods: 
 ## Simple CNN
-SHORT DESCRIPTION: 
+Description: 
 A convolutionnal neural network CNN with two convolutionnal layers and one hidden linear layer. Between each convolutionnal layer, we used a leaky relu activation and a max-pool layer, as well as a leaky relu activation for the hidden linear layer. Again we used the negative log likelihood loss and the log softmax activation for the final layer as it is standard for classification with C classes.
 
     Learning rates: 0.001
@@ -14,7 +14,7 @@ A convolutionnal neural network CNN with two convolutionnal layers and one hidde
     Accuracy on test: 66.71 %  
 
 ## Simple CNN with Dropout
-SHORT DESCRIPTION: Testing the effect of dropout to a CNN model 
+Description: Testing the effect of dropout to a CNN model 
 
     Learning rates: 0.01
     Batch size:  32
@@ -25,7 +25,7 @@ SHORT DESCRIPTION: Testing the effect of dropout to a CNN model
 
 ## Additional (pretrained) models:
 #### VGG16 
-SHORT DESCRIPTION : Using pretrained model VGG-16 on CIFAR-10 by freezing the first layers and retraining the last one.
+Description : Using pretrained model VGG-16 on CIFAR-10 by freezing the first layers and retraining the last one.
 
     Learning rates: 0.01  
     Batch size:  32
@@ -34,15 +34,16 @@ SHORT DESCRIPTION : Using pretrained model VGG-16 on CIFAR-10 by freezing the fi
     Accuracy on test:  86.06 %
     
 #### Resnet18
-We used a pretrained resnet model.   
+We used a pretrained resnet18 model.   
 
     Learning rates: 0.01   
     Batch size: 64   
-    Epochs: 20     
+    Epochs: 20
+    Total params: 11,689,512
     Interpretation of loss plot: We can clearly see that we are overfitting on the train data, as the train loss is increasing up to 99.86 % while the test loss stays the same. We could use a model that relies more on regularization.    
     Accuracy on test: 90.27 %  
 #### ViT (Vision Transfomer) 
-SHORT DESCRIPTION: A novel method of using Transfomers for classification tasks.
+Description: A novel method of using Transfomers for classification tasks.
 
     Learning rates: 3e-5.
     Batch size:  64.
