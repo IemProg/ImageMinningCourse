@@ -65,7 +65,7 @@ https://papers.nips.cc/paper/8186-adaptive-methods-for-nonconvex-optimization.pd
 We experimented with the learning rate finder concept introduced in "Cyclical Learning Rates for Training Neural Networks" by Smith, 2015 Retrieved from:   https://arxiv.org/abs/1506.01186   
 However this proved to be an unstable method to estimate the optimal learning rate. 
 
-#### Visualising Class Saliency 
+#### Visualising Saliency Maps
 Saliency maps are a way to visualize what a network is focusing on, when making a particular classification. In order to check, the behavior behind the prediction process of the trained models.
 
 Library: https://github.com/MisaOgura/flashtorch
