@@ -1,4 +1,4 @@
-# Lab 2 Work for Image Mining Course 
+# [Image Mining Course] Lab 2: Deep Learning 
 
 This repository contains our Pytorch Notebook experiments on the Cifar10 dataset as part of a Course on Image Mining 
 
